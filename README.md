@@ -1,124 +1,124 @@
-# Comer bien cuesta más que comer mal
+# Eating Well Costs More Than Eating Badly
 
-**Un análisis global del sistema alimentario y una propuesta de solución replicable en cualquier parte del mundo**
-
----
-
-## 1. El problema
-
-### 1.1 La idea central
-
-No es que la gente "no sepa comer" ni que "le falte voluntad". En todo el mundo, el sistema alimentario está diseñado para que **lo que enferma sea lo más barato, disponible y publicitado**, y lo que nutre sea un privilegio. La mala alimentación no es una falla individual: es el resultado predecible de precios, subsidios, publicidad y diseño de producto.
-
-### 1.2 Cómo se manifiesta
-
-**Precio por caloría.** En cualquier país, un dólar rinde mucho más en galletas, gaseosa o frituras que en fruta o verdura. La comida real es perecedera, pesada de transportar y con márgenes bajos para el vendedor.
-
-**Disponibilidad desigual.** En barrios populares de todo el mundo abundan tiendas de ultraprocesados y comida rápida. Encontrar productos frescos y variados es más difícil, más lejano y más caro.
-
-**Tiempo.** Cocinar exige tiempo que muchas familias trabajadoras no tienen. El ultraprocesado se resuelve en minutos.
-
-**Diseño adictivo.** Azúcar, sal y grasa se calibran en laboratorio para maximizar el deseo, no la nutrición. La publicidad refuerza ese deseo y apunta sobre todo a niños.
-
-**Subsidios mal orientados.** En casi todos los países se subsidia el maíz, el azúcar o el aceite industrial, no la fruta ni la verdura. El Estado abarata lo que enferma.
-
-### 1.3 Consecuencias
-
-- **Doble carga nutricional:** en un mismo país —y a veces en la misma casa— conviven obesidad y desnutrición. Es un fenómeno global, presente tanto en países ricos como pobres.
-- **Enfermedades crónicas:** diabetes, hipertensión y problemas cardiovasculares, que golpean más fuerte a los hogares de menores ingresos.
-- **Trampa de pobreza:** comer mal enferma, enfermar empobrece, y empobrecer obliga a comer mal.
-- **Pérdida de cultura alimentaria:** los platos locales y los mercados tradicionales pierden terreno frente a las cadenas globales.
+**A global analysis of the food system and a step-by-step solution that can be replicated anywhere in the world**
 
 ---
 
-## 2. La solución, paso a paso
+## 1. The Problem
 
-La propuesta se llama **"Comer Bien, Cerca y Barato"**: un programa en seis fases, diseñado para adaptarse a cualquier país, ciudad o barrio. No depende de un gobierno, una cultura ni un presupuesto específico: cada fase se ajusta al contexto local.
+### 1.1 The Core Idea
 
-### Fase 1 — Diagnóstico local (meses 1–3)
+It is not that people "don't know how to eat" or that they "lack willpower." Around the world, the food system is designed so that **what makes you sick is the cheapest, most available, and most advertised**, while what nourishes you is a privilege. Poor nutrition is not an individual failure: it is the predictable result of prices, subsidies, advertising, and product design.
 
-1. Mapear los puntos de venta de alimentos en cada barrio: cuántos venden frescos y cuántos ultraprocesados.
-2. Medir el **precio por caloría y por nutriente** de una canasta básica saludable frente a una canasta ultraprocesada.
-3. Identificar los barrios con mayor prevalencia de diabetes, obesidad y anemia.
-4. Publicar los resultados en abierto, para que la comunidad y la prensa los vean.
+### 1.2 How It Shows Up
 
-**Producto:** un informe público con mapa de acceso alimentario por barrio.
+**Price per calorie.** In any country, a dollar buys far more in cookies, soda, or fried snacks than in fruit or vegetables. Real food is perishable, heavy to transport, and offers low margins for the seller.
 
-### Fase 2 — Abaratar lo que nutre (meses 3–12)
+**Unequal availability.** In working-class neighborhoods worldwide, ultra-processed food outlets and fast food abound. Finding fresh, varied produce is harder, farther away, and more expensive.
 
-1. **Redirigir subsidios:** mover parte del apoyo al cultivo industrial hacia frutas, verduras, legumbres y pequeños agricultores.
-2. **Impuesto a bebidas azucaradas y ultraprocesados**, con lo recaudado destinado íntegramente al programa.
-3. **Cero IVA a frutas y verduras frescas** de producción local.
-4. **Compras públicas** que prioricen productores locales en escuelas, hospitales y cárceles.
+**Time.** Cooking takes time that many working families do not have. Ultra-processed food is ready in minutes.
 
-**Producto:** una canasta saludable con precio estable y competitivo frente a la ultraprocesada.
+**Addictive design.** Sugar, salt, and fat are calibrated in laboratories to maximize craving, not nutrition. Advertising reinforces that craving and targets children above all.
 
-### Fase 3 — Acortar la cadena (meses 6–18)
+**Misguided subsidies.** In almost every country, maize, sugar, or industrial oil is subsidized — not fruit or vegetables. The state makes what harms you cheaper.
 
-1. **Mercados y ferias de productores** en cada barrio, al menos dos veces por semana.
-2. **Cooperativas de compra** para que los vecinos compren al por mayor y a precio de campo.
-3. **Puntos de venta móviles** que lleven frescos a los barrios donde no hay mercado.
-4. **Logística compartida** para reducir el costo de transporte del pequeño productor.
+### 1.3 Consequences
 
-**Producto:** frescos disponibles a menos de 10 minutos a pie en la mayoría de barrios.
-
-### Fase 4 — Recuperar el tiempo y el saber (meses 6–24)
-
-1. **Talleres de cocina** en escuelas, centros comunitarios y lugares de trabajo, con recetas locales, rápidas y económicas.
-2. **Comedores escolares** con comida real, comprada a productores locales.
-3. **Huertos escolares y comunitarios**, que enseñan y además producen.
-4. **Recetarios accesibles**, en formato digital y físico, con costos por porción.
-
-**Producto:** una generación que sabe cocinar y que reconoce el valor de lo local.
-
-### Fase 5 — Regular el entorno (meses 12–36)
-
-1. **Etiquetado frontal de advertencia** obligatorio, adaptado a cada país.
-2. **Prohibición de publicidad** de ultraprocesados dirigida a menores de 12 años.
-3. **Retiro de ultraprocesados** de las máquinas expendedoras y tiendas escolares.
-4. **Regulación de la publicidad** en espacios públicos y transporte.
-
-**Producto:** un entorno donde lo saludable es lo visible y lo fácil.
-
-### Fase 6 — Medir y sostener (continuo)
-
-1. **Indicadores anuales:** precio relativo de la canasta saludable, consumo de frutas y verduras, prevalencia de sobrepeso y anemia infantil.
-2. **Consejo ciudadano** con participación de agricultores, nutricionistas, estudiantes y comerciantes.
-3. **Presupuesto protegido:** el programa no depende de un gobierno de turno.
-4. **Evaluación abierta** y ajuste de las fases según resultados.
-
-**Producto:** un sistema que se corrige solo y que sobrevive a los cambios políticos.
+- **Double burden of malnutrition:** obesity and undernutrition coexist in the same country — and sometimes in the same household. It is a global phenomenon, present in rich and poor countries alike.
+- **Chronic disease:** diabetes, hypertension, and cardiovascular problems, which hit lower-income households hardest.
+- **Poverty trap:** eating badly makes you sick, being sick makes you poor, and being poor forces you to eat badly.
+- **Loss of food culture:** local dishes and traditional markets lose ground to global chains.
 
 ---
 
-## 3. Cómo medir el éxito
+## 2. The Solution, Step by Step
 
-| Indicador | Línea base | Meta a 5 años |
+The proposal is called **"Eat Well, Close, and Cheap"**: a six-phase program designed to adapt to any country, city, or neighborhood. It does not depend on a specific government, culture, or budget — each phase adjusts to the local context.
+
+### Phase 1 — Local Diagnosis (months 1–3)
+
+1. Map food retail points in each neighborhood: how many sell fresh food and how many sell ultra-processed products.
+2. Measure the **price per calorie and per nutrient** of a basic healthy basket versus an ultra-processed basket.
+3. Identify the neighborhoods with the highest prevalence of diabetes, obesity, and anemia.
+4. Publish the results openly, so the community and the press can see them.
+
+**Output:** a public report with a neighborhood-level food access map.
+
+### Phase 2 — Make What Nourishes Cheaper (months 3–12)
+
+1. **Redirect subsidies:** shift part of the support for industrial crops toward fruits, vegetables, legumes, and small farmers.
+2. **Tax sugary drinks and ultra-processed foods**, with the revenue earmarked entirely for the program.
+3. **Zero VAT on fresh fruits and vegetables** from local production.
+4. **Public procurement** that prioritizes local producers in schools, hospitals, and prisons.
+
+**Output:** a healthy basket with a stable price that competes with ultra-processed food.
+
+### Phase 3 — Shorten the Chain (months 6–18)
+
+1. **Farmers' markets and fairs** in every neighborhood, at least twice a week.
+2. **Buying cooperatives** so residents can buy in bulk at farm-gate prices.
+3. **Mobile sales points** that bring fresh food to neighborhoods without a market.
+4. **Shared logistics** to reduce transport costs for small producers.
+
+**Output:** fresh food available within a 10-minute walk in most neighborhoods.
+
+### Phase 4 — Reclaim Time and Knowledge (months 6–24)
+
+1. **Cooking workshops** in schools, community centers, and workplaces, using local, fast, and affordable recipes.
+2. **School cafeterias** serving real food, bought from local producers.
+3. **School and community gardens** that teach and also produce.
+4. **Accessible recipe books**, in digital and physical formats, with cost per serving.
+
+**Output:** a generation that knows how to cook and recognizes the value of what is local.
+
+### Phase 5 — Regulate the Environment (months 12–36)
+
+1. **Mandatory front-of-package warning labels**, adapted to each country.
+2. **Ban on advertising** of ultra-processed foods aimed at children under 12.
+3. **Removal of ultra-processed foods** from vending machines and school stores.
+4. **Regulation of advertising** in public spaces and on public transport.
+
+**Output:** an environment where healthy food is the visible and easy choice.
+
+### Phase 6 — Measure and Sustain (continuous)
+
+1. **Annual indicators:** relative price of the healthy basket, fruit and vegetable consumption, prevalence of childhood overweight and anemia.
+2. **Citizen council** with participation from farmers, nutritionists, students, and retailers.
+3. **Protected budget:** the program does not depend on the government of the day.
+4. **Open evaluation** and phase adjustment based on results.
+
+**Output:** a system that corrects itself and survives political change.
+
+---
+
+## 3. How to Measure Success
+
+| Indicator | Baseline | 5-Year Target |
 |---|---|---|
-| Precio relativo canasta saludable / ultraprocesada | Mayor que 1 | Menor o igual a 1 |
-| Consumo diario de frutas y verduras | Bajo | Aumento del 50 % |
-| Sobrepeso infantil | Alto | Reducción del 20 % |
-| Anemia infantil | Alta | Reducción del 30 % |
-| Productores locales en compras públicas | Marginal | Al menos 40 % |
-| Pérdida y desperdicio de alimentos | Alto | Reducción del 30 % |
+| Relative price: healthy basket / ultra-processed basket | Greater than 1 | Less than or equal to 1 |
+| Daily fruit and vegetable consumption | Low | 50% increase |
+| Childhood overweight | High | 20% reduction |
+| Childhood anemia | High | 30% reduction |
+| Local producers in public procurement | Marginal | At least 40% |
+| Food loss and waste | High | 30% reduction |
 
 ---
 
-## 4. Por qué esto sí funciona
+## 4. Why This Works
 
-- **Ataca el precio, no la culpa.** Nadie cambia de dieta si lo sano cuesta el doble.
-- **Ataca la disponibilidad.** No sirve educar si no hay dónde comprar.
-- **Ataca la cultura.** Recupera el saber cocinar y el valor de lo local.
-- **Ataca el entorno.** Regula la publicidad que empuja a los niños hacia lo que enferma.
-- **Se mide y se corrige.** Sin datos, cualquier política es fe.
-- **Es replicable.** Cada fase se adapta al país, la ciudad o el barrio donde se aplique.
-
----
-
-## 5. La frase para cerrar
-
-*"No es falta de voluntad: es que lo barato enferma y lo sano cuesta. Mientras comer bien sea un privilegio, la mala alimentación seguirá siendo una política pública disfrazada de elección personal."*
+- **It targets price, not blame.** No one changes their diet if healthy food costs twice as much.
+- **It targets availability.** Education is useless if there is nowhere to buy.
+- **It targets culture.** It revives cooking knowledge and the value of what is local.
+- **It targets the environment.** It regulates the advertising that pushes children toward what harms them.
+- **It measures and corrects itself.** Without data, any policy is guesswork.
+- **It is replicable.** Each phase adapts to the country, city, or neighborhood where it is applied.
 
 ---
 
-**Licencia sugerida:** Creative Commons BY-SA 4.0, para que cualquiera pueda adaptar el programa a su ciudad o país.
+## 5. Closing Line
+
+*"It is not a lack of willpower: the cheap food makes you sick and the healthy food costs more. As long as eating well is a privilege, poor nutrition will remain a public policy disguised as a personal choice."*
+
+---
+
+**Suggested license:** Creative Commons BY-SA 4.0, so anyone can adapt the program to their city or country.
