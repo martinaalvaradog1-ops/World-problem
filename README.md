@@ -135,3 +135,132 @@ TAM, SAM, and SOM are a funnel. It narrows from the whole opportunity to the sli
 |---|---|---|
 | **TAM** | Total Addressable Market | If everyone who could need this were served, how big is the market? |
 | **SAM** | Serviceable Addressable Market | Of that total, how much can my model reach (geography,
+
+"""
+TAM / SAM / SOM for "Eat Well, Close and Cheap" (Ecuador -> Quito -> 3 pilot parishes).
+
+Run:  python tam_sam_som.py
+No third-party packages needed.
+
+Sizing is in PEOPLE and in the annual FOOD-SPEND POOL those people represent
+(not revenue). Edit the INPUTS section to adapt it to another place.
+"""
+
+from dataclasses import dataclass
+
+# ----------------------------------------------------------------------
+# INPUTS (real figures; sources in comments)
+# ----------------------------------------------------------------------
+
+# TAM: all residents of Ecuador. INEC Census 2022 (INEC later adjusted this
+# to ~17.7 million for undercount, so this figure is conservative).
+ECUADOR_POPULATION = 16_938_986
+
+# SAM: Quito Metropolitan District, INEC Census 2022.
+QUITO_POPULATION = 2_679_722
+
+# SOM: illustrative pilot parishes, Census 2022 parish tables (Quito municipality).
+# These were picked for size, NOT verified disease burden: confirm in Phase 1.
+PILOT_PARISHES = {
+    "Calderon": 250_877,
+    "Guamani": 99_998,
+    "Chillogallo": 68_496,
+}
+
+# Food spending: INEC Canasta Familiar Basica, July 2026, national.
+# Food and drinks = USD 355.27/month for a reference household of 4 people.
+FOOD_SPEND_PER_HOUSEHOLD_MONTH = 355.27
+PEOPLE_PER_REFERENCE_HOUSEHOLD = 4
+
+# Health context for the TAM (ENSANUT surveys), for reporting only.
+HEALTH_BURDEN = {
+    "Adults overweight or obese (ENSANUT 2011-13)": "about 63%",
+    "Under-5 chronic malnutrition (ENSANUT 2018)": "23%",
+    "Preschool anemia (ENSANUT 2012)": "about 1 in 4",
+}
+
+
+# ----------------------------------------------------------------------
+# MODEL
+# ----------------------------------------------------------------------
+
+@dataclass
+class Level:
+    name: str
+    label: str
+    people: int
+    annual_food_spend_usd: float
+
+
+def annual_food_spend_per_person() -> float:
+    monthly = FOOD_SPEND_PER_HOUSEHOLD_MONTH / PEOPLE_PER_REFERENCE_HOUSEHOLD
+    return monthly * 12
+
+
+def build_funnel() -> list[Level]:
+    per_person = annual_food_spend_per_person()
+    som_people = sum(PILOT_PARISHES.values())
+
+    levels = [
+        Level("TAM", "Ecuador, all residents", ECUADOR_POPULATION, 0.0),
+        Level("SAM", "Quito Metropolitan District", QUITO_POPULATION, 0.0),
+        Level("SOM", "3 pilot parishes", som_people, 0.0),
+    ]
+    for lv in levels:
+        lv.annual_food_spend_usd = lv.people * per_person
+
+    assert levels[2].people <= levels[1].people <= levels[0].people, (
+        "Funnel must narrow: SOM <= SAM <= TAM"
+    )
+    return levels
+
+
+# ----------------------------------------------------------------------
+# REPORT
+# ----------------------------------------------------------------------
+
+def money(x: float) -> str:
+    if x >= 1e9:
+        return f"${x / 1e9:,.2f} B"
+    return f"${x / 1e6:,.0f} M"
+
+
+def main() -> None:
+    tam, sam, som = build_funnel()
+    per_person = annual_food_spend_per_person()
+
+    print("TAM / SAM / SOM: Eat Well, Close and Cheap")
+    print("=" * 74)
+    print(f"Food spend per person: ${per_person:,.2f}/year "
+          f"(${per_person / 12:,.2f}/month, INEC basket, national average)\n")
+
+    header = f"{'Level':<5} {'Scope':<30} {'People':>12} {'% of TAM':>9} {'% of prev':>10} {'Food pool/yr':>13}"
+    print(header)
+    print("-" * len(header))
+
+    prev = None
+    for lv in (tam, sam, som):
+        pct_tam = lv.people / tam.people * 100
+        pct_prev = "" if prev is None else f"{lv.people / prev.people * 100:.1f}%"
+        print(f"{lv.name:<5} {lv.label:<30} {lv.people:>12,} {pct_tam:>8.1f}% "
+              f"{pct_prev:>10} {money(lv.annual_food_spend_usd):>13}")
+        prev = lv
+
+    print("\nSOM breakdown (illustrative parishes):")
+    for parish, pop in PILOT_PARISHES.items():
+        print(f"  {parish:<12} {pop:>9,}  ({pop / som.people * 100:.1f}% of SOM)")
+
+    print("\nHealth burden in the TAM:")
+    for k, v in HEALTH_BURDEN.items():
+        print(f"  {k}: {v}")
+
+    print("\nNotes:")
+    print("  - Food pool = people x national average food spend. It is the money")
+    print("    these people already spend on food, not program revenue.")
+    print("  - Quito-specific food spend would be more precise; the national")
+    print("    average is used because the Quito food component was not found.")
+    print("  - Pilot parishes are illustrative: validate them in Phase 1.")
+
+
+if __name__ == "__main__":
+    main()
