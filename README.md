@@ -122,3 +122,16 @@ The proposal is called **"Eat Well, Close, and Cheap"**: a six-phase program des
 ---
 
 **Suggested license:** Creative Commons BY-SA 4.0, so anyone can adapt the program to their city or country.
+
+# TAM, SAM, SOM: "Eat Well, Close and Cheap"
+
+A market-sizing guide for the six-phase food program, using real numbers for Ecuador and Quito.
+
+## What this is
+
+TAM, SAM, and SOM are a funnel. It narrows from the whole opportunity to the slice you can realistically win.
+
+| Term | Full name | Question it answers |
+|---|---|---|
+| **TAM** | Total Addressable Market | If everyone who could need this were served, how big is the market? |
+| **SAM** | Serviceable Addressable Market | Of that total, how much can my model reach (geography,
